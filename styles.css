@@ -91,9 +91,8 @@
 }
 .wrapper-benefits {
     padding: 60px 140px;
-    background-color: #fafbf9;
-    display: flex;
-    flex-wrap: wrap;
+    background-color: #ffffff;
+    display: column;
     justify-content: center;
     gap: 25px;
 }
@@ -102,13 +101,29 @@
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    text-align: center
+    text-align: center;
+    background-color: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
 
 .card {
-    border: solid 2px #3780f6;
+    border: solid 2.2px #3780f6;
     width: 100px;
     height: 100px;
     border-radius: 10px;
     margin-top: 10px;
+}
+
+.container p {
+    margin-top: 100px;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 5px;
+    color: #80858b;
 }
