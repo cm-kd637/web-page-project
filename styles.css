@@ -90,7 +90,7 @@
     cursor: pointer;
 }
 .wrapper-benefits {
-    padding: 60px 140px;
+    padding: 70px 140px;
     background-color: #ffffff;
     display: column;
     justify-content: center;
@@ -98,11 +98,12 @@
 }
 
 .wrapper-benefits h2 {
-    font-size: 36px;
+    font-size: 30px;
     color: #1F2937;
     font-weight: 900;
     text-align: center;
     background-color: none;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -118,6 +119,7 @@
     height: 100px;
     border-radius: 10px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .container p {
@@ -126,4 +128,59 @@
     text-align: center;
     padding: 5px;
     color: #80858b;
+}
+
+.wrapper-quote {
+    padding: 70px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote p {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.signature {
+    display: flex;
+    width: 300px;
+    justify-content: flex-end;
+}
+
+.wrapper-banner {
+    max-width: auto;
+    margin: 45px 0px;
+    padding: 0 120px;
+    background-color: #ffffff;
+}
+
+.banner {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+    background-color: #2d6dd5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.banner-text {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+}
+
+.banner-button {
+    display: flex;
+    width: 300px;
+    justify-content: flex-end;
 }
